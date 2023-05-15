@@ -320,12 +320,22 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid #D27D38;
     width: 400px;
     height: 400px;
     top: 40px;
     left: 50px;
-    z-index: 1
+    z-index: 0;
+    animation: color-transition 5s forwards;
+}
+
+@keyframes color-transition {
+    from {
+        border-color: #D27D38;
+    }
+    to {
+        border-color: #F3F3F3;
+    }
 }
 
 .btn {
