@@ -1,7 +1,7 @@
 /*
-* Resume
+* Portfolio Resume
 * Created by : Emmanuel Mensah
-* website : ***************
+* website : Portfolio.mannyj.net
 */
 
 
@@ -670,130 +670,97 @@ a.active {
 /* contact
 ==================================================*/
 
+/* styles.css */
+
 #contact {
-    padding: 100px 0;
-    background: #f3f3f3
+  background: #f3f3f3;
+  padding: 50px 0;
+  color: #333;
+  font-size: 18px;
+  text-align: center;
 }
 
-#contact-form input,
-#contact-form textarea {
-    height: 50px;
-    margin-bottom: 10px;
-    border-radius: 0;
+#contact h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-#contact-form label {
-    display: block;
-    margin-bottom: .2em;
-    font-size: 13px;
-    line-height: 13px;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    color: #000;
+.size-50 {
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
-#contact-form label.error {
-    margin-top: 10px;
-    margin-bottom: 1em;
-    font-size: 12px;
-    line-height: 12px;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: #D33E43;
-    margin-left: 10px
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
-#contact-form input[type="text"].error,
-#contact-form input[type="password"].error,
-#contact-form input[type="date"].error,
-#contact-form input[type="datetime"].error,
-#contact-form input[type="datetime-local"].error,
-#contact-form input[type="month"].error,
-#contact-form input[type="week"].error,
-#contact-form input[type="email"].error,
-#contact-form input[type="number"].error,
-#contact-form input[type="search"].error,
-#contact-form input[type="tel"].error,
-#contact-form input[type="time"].error,
-#contact-form input[type="url"].error,
-#contact-form textarea.error {
-    border-color: #D33E43
+.contact-info .info-item {
+  flex-basis: 300px;
+  margin: 10px;
+  text-align: left;
 }
 
-textarea {
-    resize: none;
+.contact-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-fieldset {
-    border: 0px;
-    margin: 0;
-    padding: 0
+.contact-info p {
+  margin-bottom: 10px;
 }
 
-.required {
-    color: #e9266d
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-#success,
-#error {
-    display: none
+.social ul li {
+  margin-right: 10px;
 }
 
-#success p,
-#error p {
-    display: block;
+.social ul li:last-child {
+  margin-right: 0;
 }
 
-#success p {
-    color: #425BB5;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #425BB5;
-    margin-top: 10px;
-}
 
-#error p {
-    color: #D33E43;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #D33E43;
-    margin-top: 10px;
-}
-
-#submit {
-    background-color: #425BB5;
-    color: #fff;
-    padding: 10px 40px;
-    border-radius: 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    width: 100%;
-}
-
-.social {
-    padding-left: 0;
-    list-style: none;
-    margin-top: 20px;
-}
-
-.social li {
-    float: left;
-}
-
-.social li a {
-    color: #333;
-    font-size: 35px;
-    margin-right: 15px;
-    transition: all .3s;
-    -webkit-transition: all .3s;
+.social ul li a {
+  color: #333;
+  font-size: 25px;
+  transition: all 0.3s;
 }
 
 .social li a:hover {
     color: #425BB5;
 }
+
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+}
+
+
 
 
 /* Responsive media queries
