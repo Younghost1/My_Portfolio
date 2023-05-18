@@ -5,6 +5,22 @@
 */
 
 
+/* Table of Content
+==================================================
+	- Google fonts & font family -
+	- typography -
+	- General -
+    - Preloader -
+	- Header -
+    - home section -
+    - About section -
+    - experience section -
+    - projects section -
+    - Contact section -
+    - Responsive media queries -
+*/
+
+
 /* Google fonts & font family
 ==================================================*/
 
@@ -671,7 +687,7 @@ a.active {
 ==================================================*/
 
 #contact {
-  background: #f3f3f3;
+  background: #DCDCDC;
   padding: 50px 0;
   color: #333;
   font-size: 18px;
@@ -681,6 +697,7 @@ a.active {
 #contact h4 {
   font-size: 24px;
   margin-bottom: 10px;
+  
 }
 
 .size-50 {
@@ -692,6 +709,7 @@ a.active {
 #contact .size-50 {
   font-size: 50px;
   margin-bottom: 30px;
+  color: #000000;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   transition: transform 0.1s;
 }
@@ -717,7 +735,7 @@ a.active {
 #contact .contact-info h3 {
   font-size: 28px;
   margin-bottom: 15px;
-  color: #336699;
+  color: #B8860B;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
@@ -751,7 +769,7 @@ a.active {
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 1.5;
-  color: #BDB76B;
+  color: #555555;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
