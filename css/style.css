@@ -42,6 +42,8 @@ h4 {
     font-weight: 700;
 }
 
+
+/* This is the dash before the number*/
 h4:before {
     position: absolute;
     width: 30px;
@@ -671,7 +673,7 @@ a.active {
 ==================================================*/
 
 #contact {
-  background: #DCDCDC;
+  background: #f3f3f3;
   padding: 50px 0;
   color: #333;
   font-size: 18px;
@@ -757,6 +759,27 @@ a.active {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+
+#contact h4 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: #B8860B;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+#contact h4:before {
+    position: absolute;
+    width: 30px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #B8860B;
+    top: 9px;
+}
 
 .social ul {
   list-style: none;
