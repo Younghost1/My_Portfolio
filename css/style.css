@@ -5,22 +5,6 @@
 */
 
 
-/* Table of Content
-==================================================
-	- Google fonts & font family -
-	- typography -
-	- General -
-    - Preloader -
-	- Header -
-    - home section -
-    - About section -
-    - experience section -
-    - projects section -
-    - Contact section -
-    - Responsive media queries -
-*/
-
-
 /* Google fonts & font family
 ==================================================*/
 
@@ -40,6 +24,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
+	
     
 }
 
@@ -252,14 +237,16 @@ nav li {
 }
 
 nav li a {
+/* Color of the list*/
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: #BDB76B;
     font-size: 11px;
     font-weight: bold;
 }
 
 .bg-nav {
+/* Background color change when you scroll to the stages*/
     background: #fff;
     border-bottom: 1px solid #f3f3f3
 }
@@ -269,17 +256,19 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+/* Color change when the page is active */
+    color: #808000;
     text-decoration: none;
 }
 
 a:hover {
-    color: #425BB5;
+/* Color change when you hover*/
+    color: #696969;
     text-decoration: none;
 }
-
+/* Color change when you are at the stage*/
 a.active {
-    color: #425BB5;
+    color: #696969;
 }
 
 
@@ -337,6 +326,7 @@ a.active {
         border-color: #F3F3F3;
     }
 }
+
 
 .btn {
   background-color: red;
@@ -680,8 +670,6 @@ a.active {
 /* contact
 ==================================================*/
 
-/* styles.css */
-
 #contact {
   background: #f3f3f3;
   padding: 50px 0;
@@ -698,6 +686,18 @@ a.active {
 .size-50 {
   font-size: 50px;
   margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#contact .size-50 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  transition: transform 0.1s;
+}
+
+#contact .size-50:hover{
+	animation: rubberBand 1s;
 }
 
 .contact-info {
@@ -713,14 +713,48 @@ a.active {
   text-align: left;
 }
 
-.contact-info h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
+
+#contact .contact-info h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #336699;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
 
-.contact-info p {
-  margin-bottom: 10px;
+#contact .contact-info h3:hover {
+  animation: rubberBand 1s;
 }
+
+@keyframes rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.25);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+  70% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #BDB76B;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
 
 .social ul {
   list-style: none;
