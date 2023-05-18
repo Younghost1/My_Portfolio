@@ -402,7 +402,14 @@ and oral communication abilities. </p>
 		</div>
 	  </div>
 	</footer>
-
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	  <script>
+		$(document).ready(function() {
+		  $(".size-50, h3").one("mouseenter", function() {
+			$(this).addClass("rubberBand");
+		  });
+		});
+	  </script>
 
     <!-- ./contact -->
 
