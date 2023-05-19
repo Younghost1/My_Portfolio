@@ -249,8 +249,8 @@ nav li a {
 
 .bg-nav {
 /* Background color change when you scroll to the stages*/
-    background: #fff;
-    border-bottom: 1px solid #f3f3f3
+    background: transparent;
+    border-bottom: transparent
 }
 
 .bg-nav ul {
