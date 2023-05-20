@@ -66,8 +66,9 @@ body {
 }
 
 .size-50 {
-    font-size: 50px;
-    line-height: 50px
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 50px
 }
 
 .h-50 {
@@ -686,23 +687,15 @@ a.active {
   
 }
 
-.size-50 {
-  font-size: 50px;
-  margin-bottom: 30px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
+
 
 #contact .size-50 {
   font-size: 50px;
   margin-bottom: 30px;
   color: #000000;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  transition: transform 0.1s;
 }
 
-#contact .size-50:hover{
-	animation: rubberBand 1s;
-}
 
 .contact-info {
   display: flex;
@@ -712,47 +705,61 @@ a.active {
 }
 
 .contact-info .info-item {
-  flex-basis: 300px;
-  margin: 10px;
-  text-align: left;
+  flex-basis: 20%;
+  margin: 1%;
+  text-align: center
 }
+
+
 
 
 #contact .contact-info h3 {
   font-size: 28px;
-  margin-bottom: 15px;
+  margin-bottom: %;
   color: #B8860B;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
 }
-
-#contact .contact-info h3:hover {
-  animation: rubberBand 1s;
+/* contact rubberBand transition where 1 represent
+ how many time the animation must play*/
+#contact .contact-info h3:hover,
+#contact .size-50:hover {
+   animation: rubberBand 1s 1;
 }
 
 @keyframes rubberBand {
   0% {
-    transform: scale(1);
+    transform: scale3d(1, 1, 1);
   }
+
   30% {
-    transform: scale(1.25);
+    transform: scale3d(1.15, 0.9, 1);
   }
+
+  40% {
+    transform: scale3d(0.8, 1.15, 1);
+  }
+
   50% {
-    transform: scale(0.75);
+    transform: scale3d(1.15, 0.85, 1);
   }
-  70% {
-    transform: scale(1.15);
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
   }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
   100% {
-    transform: scale(1);
+    transform: scale3d(1, 1, 1);
   }
 }
 
 
-
 .contact-info p {
-  margin-bottom: 15px;
+  margin-bottom: %;
   font-size: 18px;
   line-height: 1.5;
   color: #555555;
