@@ -326,7 +326,7 @@ a.active {
         border-color: #D27D38;
     }
     to {
-        border-color: #F3F3F3;
+        border-color: transparent;
     }
 }
 
