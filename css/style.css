@@ -331,20 +331,55 @@ a.active {
 }
 
 
-.btn {
-  background-color: red;
-  border-radius: 20px;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.4s;
+.box {
+  position: relative;
+  width: 120px;
+  height: 45px;
+  overflow: hidden;
+  border: none;
+  background-color: #F5DEB3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top-left-radius: 20px;
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 0 10px rgb(104, 134, 218);
 }
 
-.btn:hover {
-  background-color: black;
-  color: white;
+.box::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 200px;
+  margin-top: -92px;
+  background: linear-gradient(#B0E0E6,#DB7093);
+  animation: amm 10s linear infinite;
+}
+
+@keyframes amm {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text-button {
+  position: relative;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background-color: #F5DEB3;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 
