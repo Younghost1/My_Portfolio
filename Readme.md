@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="project-logo.png" alt="Project Logo" width="200">
+  <img src="project-logo.png" alt="My Portfolio" width="200">
   <br>
   Project Name
 </h1>
