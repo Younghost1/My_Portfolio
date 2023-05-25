@@ -1,21 +1,11 @@
 <h1 align="center">
-  <img src="project-logo.png" alt="My Portfolio" width="200">
+  <img src="project-logo.png" alt="Project Logo" width="500">
   <br>
-  Project Name
+  My Portfolio
 </h1>
 
 <p align="center">My personal portfolio website showcasing my resume, education, experience, projects, and contact information.</p>
 
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#education">Education</a> •
-  <a href="#experience">Experience</a> •
-  <a href="#projects">Projects</a> •
-  <a href="#contact">Contact</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
-</p>
 
 ## About
 
