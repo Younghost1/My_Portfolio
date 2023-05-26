@@ -315,20 +315,6 @@ a.active {
     margin: 0 auto;
 }
 
-@media (max-width: 767px) {
-  .about-img-div {
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  .about-border {
-    position: static;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 0;
-  }
-}
-
 .about-border {
     position: absolute;
     border: 10px solid #D27D38;
