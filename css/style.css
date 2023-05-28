@@ -407,30 +407,6 @@ a.active {
     background: #f3f3f3
 }
 
-.experience-row {
-    padding: 20px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.experience-row h3 {
-    font-family: 'Lato', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    color: #425BB5;
-    font-size: 16px;
-    font-weight: bold
-}
-
-.experience-row p {
-    color: #888;
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-.experience-row .date {
-    color: #000;
-    font-size: 17px;
-}
 
 .timeline {
     padding-left: 0;
@@ -456,11 +432,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color: #BDB76B;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #425BB5;
+    box-shadow: inset 40em 0 0 0 #BDB76B;
 }
 
 .timeline-event-copy {
@@ -495,7 +471,7 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425BB5;
+    background-color: #BDB76B;
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -517,7 +493,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em #425BB5;
+    box-shadow: inset 0 0 0 0em #BDB76B;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -557,7 +533,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #BDB76B;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -582,7 +558,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: #BDB76B;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -617,7 +593,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #BDB76B;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -724,7 +700,7 @@ a.active {
 #contact .contact-info h3 {
   font-size: 28px;
   margin-bottom: 10px;
-  color: #B8860B;
+  color: #BDB76B;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -770,7 +746,7 @@ a.active {
   margin-bottom: %;
   font-size: 18px;
   line-height: 1.5;
-  color: #555555;
+  color: #BDB76B;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -780,7 +756,7 @@ a.active {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #B8860B;
+    color: #BDB76B;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -792,7 +768,7 @@ a.active {
     content: "";
     display: block;
     height: 2px;
-    background: #B8860B;
+    background: #BDB76B;
     top: 9px;
 }
 
