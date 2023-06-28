@@ -654,11 +654,47 @@ a.active {
   opacity: 0.5; /* Adjust the opacity value as desired */
 }
 
+
+/* skills
+==================================================*/
+#skills {
+    padding: 100px 0;
+    background: #f3f3f3
+}
+
+.column-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.column-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	transition: opacity 0.3s ease;
+}
+
+.column-list li:hover {
+    opacity: 0.5;
+}
+.column-list li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
 /* contact
 ==================================================*/
 
 #contact {
-  background: #f3f3f3;
+  background: #ffffff;
   padding: 50px 0;
   color: #333;
   font-size: 18px;
