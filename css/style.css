@@ -671,9 +671,9 @@ a.active {
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
-	font-family: Georgia, serif;
-	font-size: 16px;
-	transition: opacity 0.3s ease;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
 }
 
 .column-list li:hover {
