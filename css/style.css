@@ -317,7 +317,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #D27D38;
+    border: 10px solid #6d95f2;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -328,7 +328,7 @@ a.active {
 
 @keyframes color-transition {
     from {
-        border-color: #D27D38;
+        border-color: #6d95f2;
     }
     to {
         border-color: transparent;
